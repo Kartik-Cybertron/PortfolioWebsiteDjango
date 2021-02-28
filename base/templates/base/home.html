@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body" id="profile-wrapper">
+            <img
+              id="profile-pic"
+              src="{% static 'images/ProPic.jpg' %}"
+              alt=""
+            />
+            <hr />
+            <h4>Kartik Chaudhari</h4>
+            <p>I am a C#.net and a Python/Django developer</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card card-body">
+            <h4>My first Job as developer</h4>
+            <hr />
+            <p>
+              A month after writing my first code for a calculator in c# in Jan
+              2020 (while i was a final year student). I convinced myself for
+              land an internship somewhere as a developer in c#.
+            </p>
+            <p>
+              Before I knew i was working as a software developer on a new
+              project of a new ATM software.
+            </p>
+            <p>
+              From This you'll see that I'm someone that jumps before i can talk
+              myself out of doing something scary.
+            </p>
+            <ul class="social-links">
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/facebook.png' %}"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/linkedin.png' %}"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/twitter.png' %}"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/youtube.png' %}"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h5>My Experience as a developer</h5>
+            <hr />
+            <p>C# Desktop app junior developer at SCAD Technologies</p>
+            <p>
+              Worked on a ATM application as a junior developer. Created and
+              designed database for the application. System supported thousands
+              of customers with a UI for money transaction and a Dashboard.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h5>What I know</h5>
+            <hr />
+            <p>
+              Python, Django, HTML/CSS, C#.net, SQL, C/C++ and APIs such as
+              google maps, Javascript charts and a whole bunch more which i cant
+              possiby mention in one sentence
+            </p>
+            <p>PS: Working on Node JS, React, Mongo DB and ASP.net</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h4>How I Learn</h4>
+            <hr />
+            <p>
+              I can learn just about anything by having a final product to tear
+              apart peice by peice. I break the code where i need to figure out
+              why things work th way they do. Documentation is just a reference.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h4>My Short Term Goals</h4>
+            <hr />
+            <p>
+              I want a create my own software and run my own start up in 2
+              years.
+            </p>
+            <p>I want to run my own bussiness in around 5 years.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
